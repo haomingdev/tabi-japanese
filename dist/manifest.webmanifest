@@ -1,0 +1,18 @@
+{
+  "id": "/",
+  "name": "Tabi — Japanese for the journey",
+  "short_name": "Tabi",
+  "description": "Progressive Japanese lessons, travel conversations, kana and review. Learn anywhere, even offline.",
+  "lang": "en",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F8F9F5",
+  "theme_color": "#F8F9F5",
+  "categories": ["education", "travel"],
+  "icons": [
+    {"src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
