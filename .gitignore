@@ -1,0 +1,28 @@
+# Local dependencies and generated reports
+node_modules/
+coverage/
+.nyc_output/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs and caches
+*.log
+.cache/
+
+# Editor and operating system files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Local hosting state
+.sites-checkout/
+.wrangler/
+
+# Version the application source and generated PWA files in dist/.

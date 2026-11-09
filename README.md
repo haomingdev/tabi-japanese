@@ -1,5 +1,7 @@
 # Tabi — Japanese for the journey
 
+Learn practical Japanese with Tabi, an offline-ready PWA featuring progressive lessons, A1–B2 stories, flashcards, pronunciation support, and travel conversation practice. No login required.
+
 Buildless, public Japanese travel-learning PWA. Everything under `dist/` is shipped. Learning progress, favourites and review scheduling retain the `tabi.learning.v1` localStorage key. No login or server-side learner data is required.
 
 ## Updating the app
@@ -43,3 +45,7 @@ Open http://localhost:8000. Serve the contents of `dist/` at the domain root whe
 Node.js 20 or later is needed only for the maintenance script and tests listed above. The exported source includes all 13 chaptered A1–B2 stories and the app icons.
 
 The `.openai/hosting.json` file records the original ChatGPT Sites project and its static directory. Other static hosts only need the `dist/` folder.
+
+## License
+
+Released under the [MIT License](LICENSE). Copyright (c) 2026 haomingdev.
