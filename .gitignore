@@ -24,5 +24,6 @@ Thumbs.db
 # Local hosting state
 .sites-checkout/
 .wrangler/
+.vercel/
 
 # Version the application source and generated PWA files in dist/.

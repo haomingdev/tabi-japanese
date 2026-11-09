@@ -46,6 +46,14 @@ Node.js 20 or later is needed only for the maintenance script and tests listed a
 
 The `.openai/hosting.json` file records the original ChatGPT Sites project and its static directory. Other static hosts only need the `dist/` folder.
 
+## Deploy to Vercel
+
+Import `haomingdev/tabi-japanese` from GitHub into your personal Vercel Hobby account. Keep the repository root as the Root Directory.
+
+The included `vercel.json` uses the Other framework preset, skips dependency installation, refreshes the offline cache with `node scripts/prepare-pwa.mjs`, and publishes `dist/`. Pushes to the connected production branch trigger new deployments.
+
+After opening the Vercel URL, wait for **Ready offline** before disconnecting. To move existing learning progress to the new domain, export a backup from Settings on the old domain and import it on the Vercel site.
+
 ## License
 
 Released under the [MIT License](LICENSE). Copyright (c) 2026 haomingdev.
